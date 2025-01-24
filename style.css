@@ -1,0 +1,49 @@
+/* Stile generale */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Grigio chiaro */
+    color: #343a40; /* Testo scuro */
+}
+
+/* Stile del titolo principale */
+h1 {
+    font-size: 2.5rem;
+    color: #007bff; /* Blu Bootstrap */
+    margin-bottom: 1rem;
+}
+
+/* Contenitore delle fermate */
+#stopList {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Raggruppamento per linea */
+.line-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/* Stile del cerchio giallo per il numero della linea */
+.line-number {
+    background-color: #ffd700; /* Giallo */
+    color: #000000; /* Nero */
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #000000; /* Bordo nero */
+    margin-right: 1rem;
+}
+
+/* Elenco degli orari */
+.line-times {
+    font-size: 1rem;
+    color: #343a40;
+}
